@@ -1,0 +1,29 @@
+{
+"name": "Slayer-Bot",
+  "description": "Slayer Whatsapp User Bot",
+  "repository": "https://github.com/TOXICTURBO/Slayer-Bot",
+  "logo": "https://telegra.ph/file/3647471c30b58308249ca.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/nodejs"
+
+        },
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+        },
+
+        {
+
+            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+
+        }
+
+    ]
+}
